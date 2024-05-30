@@ -1,0 +1,18 @@
+@using FinalProjectAnimalShop.Models
+@model Animal
+
+<h1>@Model.Name</h1>
+<img src="@Model.PictureUrl" alt="@Model.Name" />
+<p>@Model.Description</p>
+<h3>Comments</h3>
+<ul>
+    @foreach (var comment in Model.Comments)
+    {
+        <li>@comment.Text</li>
+    }
+</ul>
+<form asp-action="AddComment" method="post">
+    <input type="hidden" name="AnimalId" value="@Model.AnimalId" />
+    <textarea name="Text" required></textarea>
+    <button type="submit">Add Comment</button>
+</form>

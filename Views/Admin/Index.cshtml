@@ -1,0 +1,27 @@
+@using FinalProjectAnimalShop.Models
+@model IEnumerable<Animal>
+
+<h1>Admin</h1>
+<a asp-action="Create">Add New Animal</a>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var animal in Model)
+        {
+            <tr>
+                <td>@animal.Name</td>
+                <td>@animal.Category.Name</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@animal.AnimalId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@animal.AnimalId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

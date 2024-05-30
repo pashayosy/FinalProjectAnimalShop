@@ -1,0 +1,27 @@
+@using FinalProjectAnimalShop.Models
+@model Animal
+
+<h1>Add New Animal</h1>
+<form asp-action="Create" method="post">
+    <div>
+        <label>Name</label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label>Age</label>
+        <input asp-for="Age" />
+    </div>
+    <div>
+        <label>Picture URL</label>
+        <input asp-for="PictureUrl" />
+    </div>
+    <div>
+        <label>Description</label>
+        <textarea asp-for="Description"></textarea>
+    </div>
+    <div>
+        <label>Category</label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories"></select>
+    </div>
+    <button type="submit">Add</button>
+</form>

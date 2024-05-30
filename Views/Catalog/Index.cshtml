@@ -1,0 +1,20 @@
+@using FinalProjectAnimalShop.Models
+@model IEnumerable<Category>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Catalog</h1>
+@foreach (var category in Model)
+{
+    <h2>@category.Name</h2>
+    <ul>
+        @foreach (var animal in category.Animals)
+        {
+            <li>
+                <a href="@Url.Action("Details", "Animal", new { id = animal.AnimalId })">@animal.Name</a>
+            </li>
+        }
+    </ul>
+}
