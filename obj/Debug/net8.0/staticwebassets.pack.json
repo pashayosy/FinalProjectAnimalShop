@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProjectAnimalShop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinalProjectAnimalShop.props",
+      "PackagePath": "build\\FinalProjectAnimalShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalProjectAnimalShop.props",
+      "PackagePath": "buildMultiTargeting\\FinalProjectAnimalShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinalProjectAnimalShop.props",
+      "PackagePath": "buildTransitive\\FinalProjectAnimalShop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

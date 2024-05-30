@@ -1,9 +1,14 @@
 @using FinalProjectAnimalShop.Models
 @model IEnumerable<Animal>
 
-<h1>Admin</h1>
-<a asp-action="Create">Add New Animal</a>
-<table>
+@{
+    ViewData["Title"] = "Admin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Admin</h2>
+<a href="@Url.Action("Create")" class="btn btn-success mb-3">Add New Animal</a>
+<table class="table table-striped">
     <thead>
         <tr>
             <th>Name</th>
@@ -18,8 +23,8 @@
                 <td>@animal.Name</td>
                 <td>@animal.Category.Name</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@animal.AnimalId">Edit</a> |
-                    <a asp-action="Delete" asp-route-id="@animal.AnimalId">Delete</a>
+                    <a href="@Url.Action("Edit", new { id = animal.AnimalId })" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="@Url.Action("Delete", new { id = animal.AnimalId })" class="btn btn-danger btn-sm">Delete</a>
                 </td>
             </tr>
         }

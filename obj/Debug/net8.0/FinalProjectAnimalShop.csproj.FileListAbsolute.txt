@@ -133,3 +133,4 @@ E:\vs code projects\FinalProjectAnimalShop\bin\Debug\net8.0\MySqlConnector.dll
 E:\vs code projects\FinalProjectAnimalShop\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 E:\vs code projects\FinalProjectAnimalShop\obj\Debug\net8.0\FinalProjectAnimalShop.RazorAssemblyInfo.cache
 E:\vs code projects\FinalProjectAnimalShop\obj\Debug\net8.0\FinalProjectAnimalShop.RazorAssemblyInfo.cs
+E:\vs code projects\FinalProjectAnimalShop\bin\Debug\net8.0\FinalProjectAnimalShop.staticwebassets.runtime.json

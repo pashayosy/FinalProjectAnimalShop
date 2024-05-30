@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "O6cLZsvmSYwyaoeOeev+VQQmOws7qG2jMNvqO46FRLM=",
+  "Hash": "B2KkSB1Q7KHmtaOEhu6im/A37rW5fqCi1B8366ju7kk=",
   "Source": "FinalProjectAnimalShop",
   "BasePath": "_content/FinalProjectAnimalShop",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "FinalProjectAnimalShop\\wwwroot",
+      "Source": "FinalProjectAnimalShop",
+      "ContentRoot": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\",
+      "BasePath": "_content/FinalProjectAnimalShop",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\css\\site.css",
+      "SourceId": "FinalProjectAnimalShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\",
+      "BasePath": "_content/FinalProjectAnimalShop",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ]
 }

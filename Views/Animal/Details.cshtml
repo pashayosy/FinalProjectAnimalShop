@@ -1,18 +1,31 @@
 @using FinalProjectAnimalShop.Models
 @model Animal
 
-<h1>@Model.Name</h1>
-<img src="@Model.PictureUrl" alt="@Model.Name" />
-<p>@Model.Description</p>
-<h3>Comments</h3>
-<ul>
-    @foreach (var comment in Model.Comments)
-    {
-        <li>@comment.Text</li>
-    }
-</ul>
-<form asp-action="AddComment" method="post">
+@{
+    ViewData["Title"] = "Animal Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <img class="detail-img" src="@Model.PictureUrl" alt="@Model.Name">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text">@Model.Description</p>
+        <p class="card-text"><small class="text-muted">Age: @Model.Age</small></p>
+        <h5>Comments</h5>
+        <ul class="list-group list-group-flush">
+            @foreach (var comment in Model.Comments)
+            {
+                <li class="list-group-item">@comment.Text</li>
+            }
+        </ul>
+    </div>
+</div>
+<form asp-action="AddComment" method="post" class="mt-3">
+    <div class="form-group">
+        <label for="Text">Add a Comment</label>
+        <textarea class="form-control" id="Text" name="Text" rows="3" required></textarea>
+    </div>
     <input type="hidden" name="AnimalId" value="@Model.AnimalId" />
-    <textarea name="Text" required></textarea>
-    <button type="submit">Add Comment</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
 </form>

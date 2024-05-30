@@ -1,0 +1,23 @@
+.footer {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title,
+.card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.detail-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
