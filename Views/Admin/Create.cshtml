@@ -20,9 +20,8 @@
         <span asp-validation-for="Age" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="PictureUrl" class="control-label"></label>
-        <input asp-for="PictureUrl" class="form-control" />
-        <span asp-validation-for="PictureUrl" class="text-danger"></span>
+        <label for="Photo">Photo Upload</label>
+        <input type="file" class="form-control" id="Photo" name="Photo" placeholder="/img/NoImage.jpg" />
     </div>
     <div class="form-group">
         <label asp-for="Description" class="control-label"></label>
@@ -36,9 +35,3 @@
     </div>
     <button type="submit" class="btn btn-primary">Create</button>
 </form>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}

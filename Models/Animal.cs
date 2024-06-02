@@ -16,8 +16,8 @@ public class Animal
     [Range(0, 100, ErrorMessage = "Age must be between 0 and 100.")]
     public int Age { get; set; }
 
-    [Required(ErrorMessage = "The Picture URL field is required.")]
-    [Url(ErrorMessage = "The Picture URL must be a valid URL.")]
+    //[Required(ErrorMessage = "The Picture URL field is required.")]
+    //[Url(ErrorMessage = "The Picture URL must be a valid URL.")]
     public string? PictureUrl { get; set; }
 
     [StringLength(500, ErrorMessage = "The Description must be at most 500 characters long.")]

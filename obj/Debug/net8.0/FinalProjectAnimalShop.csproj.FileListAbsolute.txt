@@ -134,3 +134,4 @@ E:\vs code projects\FinalProjectAnimalShop\bin\Debug\net8.0\Pomelo.EntityFramewo
 E:\vs code projects\FinalProjectAnimalShop\obj\Debug\net8.0\FinalProjectAnimalShop.RazorAssemblyInfo.cache
 E:\vs code projects\FinalProjectAnimalShop\obj\Debug\net8.0\FinalProjectAnimalShop.RazorAssemblyInfo.cs
 E:\vs code projects\FinalProjectAnimalShop\bin\Debug\net8.0\FinalProjectAnimalShop.staticwebassets.runtime.json
+E:\vs code projects\FinalProjectAnimalShop\obj\Debug\net8.0\FinalProjectAnimalShop.sourcelink.json

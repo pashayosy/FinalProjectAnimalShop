@@ -10,17 +10,18 @@ public class ApplicationDbContext : DbContext
     public DbSet<Category> Categories { get; set; }
     public DbSet<Comment> Comments { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.Entity<Animal>()
-            .HasOne(a => a.Category)
-            .WithMany(c => c.Animals)
-            .HasForeignKey(a => a.CategoryId);
+    //XXX: Can be removed in the future
+    // protected override void OnModelCreating(ModelBuilder modelBuilder)
+    // {
+    //     modelBuilder.Entity<Animal>()
+    //         .HasOne(a => a.Category)
+    //         .WithMany(c => c.Animals)
+    //         .HasForeignKey(a => a.CategoryId);
 
-        modelBuilder.Entity<Comment>()
-            .HasOne(c => c.Animal)
-            .WithMany(a => a.Comments)
-            .HasForeignKey(c => c.AnimalId);
-    }
+    //     modelBuilder.Entity<Comment>()
+    //         .HasOne(c => c.Animal)
+    //         .WithMany(a => a.Comments)
+    //         .HasForeignKey(c => c.AnimalId);
+    // }
 }
 

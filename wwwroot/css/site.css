@@ -16,7 +16,8 @@
   text-overflow: ellipsis;
 }
 
-.detail-img {
+.detail-img,
+.detail-text {
   width: 100%;
   height: auto;
   object-fit: contain;
