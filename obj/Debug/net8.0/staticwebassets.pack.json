@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\img\\autotile_tileset_templey_638529370000890294.png"
     },
     {
+      "Id": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\img\\autotile_tileset_templey_638529415554122063.png",
+      "PackagePath": "staticwebassets\\img\\autotile_tileset_templey_638529415554122063.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProjectAnimalShop.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

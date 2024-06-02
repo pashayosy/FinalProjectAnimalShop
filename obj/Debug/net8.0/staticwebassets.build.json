@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Cci4TYBfBCDtoXoa9Os7wjW/pxiYCLK/iY0iBAzdo3o=",
+  "Hash": "3+eno1+kChOqEWyhx3iVKi2gIAQbguVV3oy1YqabkeY=",
   "Source": "FinalProjectAnimalShop",
   "BasePath": "_content/FinalProjectAnimalShop",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\autotile_tileset_templey_638529370000890294.png"
+    },
+    {
+      "Identity": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\img\\autotile_tileset_templey_638529415554122063.png",
+      "SourceId": "FinalProjectAnimalShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\",
+      "BasePath": "_content/FinalProjectAnimalShop",
+      "RelativePath": "img/autotile_tileset_templey_638529415554122063.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\autotile_tileset_templey_638529415554122063.png"
     },
     {
       "Identity": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\img\\NoImage.jpg",
