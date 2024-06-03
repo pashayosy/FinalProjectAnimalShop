@@ -753,6 +753,12 @@ E:/vs code projects/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalSh
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Azure.Core.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Azure.Identity.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Humanizer.dll
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/System.Web.Mvc.dll
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/System.Web.Razor.dll
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/System.Web.Helpers.dll
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/System.Web.WebPages.Deployment.dll
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/System.Web.WebPages.Razor.dll
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/System.Web.WebPages.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.AspNetCore.Razor.Language.dll
@@ -778,9 +784,12 @@ E:/vs code projects/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalSh
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.Web.Infrastructure.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Mono.TextTemplating.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/MySqlConnector.dll
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/PagedList.dll
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/PagedList.Mvc.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/System.CodeDom.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/System.Composition.AttributedModel.dll
@@ -796,6 +805,8 @@ E:/vs code projects/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalSh
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/System.Security.Permissions.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/System.Windows.Extensions.dll
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/X.PagedList.dll
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/X.PagedList.Mvc.Core.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
