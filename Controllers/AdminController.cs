@@ -1,4 +1,5 @@
 ﻿using FinalProjectAnimalShop.Models;
+using FinalProjectAnimalShop.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -9,10 +10,12 @@ namespace FinalProjectAnimalShop;
 public class AdminController : Controller
 {
     private readonly ApplicationDbContext _context;
+    private readonly FileService _fileService;
 
-    public AdminController(ApplicationDbContext context)
+    public AdminController(ApplicationDbContext context, FileService fileService)
     {
         _context = context;
+        _fileService = fileService;
     }
 
     public IActionResult Index()
@@ -21,6 +24,7 @@ public class AdminController : Controller
         return View(animals);
     }
 
+    [HttpGet]
     public IActionResult Create()
     {
         ViewData["Categories"] = new SelectList(_context.Categories, "CategoryId", "Name");
@@ -28,6 +32,7 @@ public class AdminController : Controller
     }
 
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(Animal animal, IFormFile photo)
     {
         ModelState.Remove(nameof(photo));
@@ -37,23 +42,10 @@ public class AdminController : Controller
 
             if (photo != null && photo.Length > 0)
             {
-                // Generate a unique file name to prevent overwriting
-                var fileName = Path.GetFileNameWithoutExtension(photo.FileName);
-                var extension = Path.GetExtension(photo.FileName);
-                var uniqueFileName = $"{fileName}_{DateTime.Now.Ticks}{extension}";
-                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", uniqueFileName);
-
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await photo.CopyToAsync(stream);
-                }
-
-                // Save the file path in the database
-                animal.PictureUrl = $"/img/{uniqueFileName}";
+                animal.PictureUrl = await _fileService.UploadFileAsync(photo);
             }
             else if (string.IsNullOrEmpty(animal.PictureUrl))
             {
-                // Assign default image if no file was uploaded and no URL was provided
                 animal.PictureUrl = "/img/NoImage.jpg";
             }
 
@@ -92,17 +84,7 @@ public class AdminController : Controller
 
         if (photo != null && photo.Length > 0)
         {
-            var fileName = Path.GetFileNameWithoutExtension(photo.FileName);
-            var extension = Path.GetExtension(photo.FileName);
-            var uniqueFileName = $"{fileName}_{DateTime.Now.Ticks}{extension}";
-            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", uniqueFileName);
-
-            using (var stream = new FileStream(filePath, FileMode.Create))
-            {
-                await photo.CopyToAsync(stream);
-            }
-
-            animalToUpdate.PictureUrl = $"/img/{uniqueFileName}";
+            animalToUpdate.PictureUrl = await _fileService.UploadFileAsync(photo);
         }
 
         if (await TryUpdateModelAsync<Animal>(animalToUpdate, "", a => a.Name, a => a.Age, a => a.Description, a => a.CategoryId, a => a.PictureUrl))
@@ -143,6 +125,8 @@ public class AdminController : Controller
         {
             return NotFound();
         }
+
+        _fileService.DeleteFile(animal.PictureUrl);
 
         _context.Animals.Remove(animal);
         await _context.SaveChangesAsync();

@@ -1,9 +1,10 @@
 using FinalProjectAnimalShop.Models;
+using FinalProjectAnimalShop.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+builder.Services.AddScoped<FileService>();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 //Connect to sql server

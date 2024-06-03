@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\buildMultiTargeting\FinalProjectAnimalShop.props" />
+  <Import Project="../buildMultiTargeting/FinalProjectAnimalShop.props" />
 </Project>

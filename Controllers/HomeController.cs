@@ -16,10 +16,10 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         var topAnimals = _context.Animals
-            .Include(a => a.Comments)
-            .OrderByDescending(a => a.Comments.Count)
-            .Take(2)
-            .ToList();
+                .Include(a => a.Comments)
+                .OrderByDescending(a => a.Comments.Count)
+                .Take(2)
+                .ToList();
 
         return View(topAnimals);
     }

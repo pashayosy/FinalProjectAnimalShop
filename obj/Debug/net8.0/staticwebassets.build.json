@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3+eno1+kChOqEWyhx3iVKi2gIAQbguVV3oy1YqabkeY=",
+  "Hash": "Aqq4S8D4qWJQ/j/A29srcykeC7yTGy1lfGymhFJxiik=",
   "Source": "FinalProjectAnimalShop",
   "BasePath": "_content/FinalProjectAnimalShop",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "FinalProjectAnimalShop\\wwwroot",
+      "Name": "FinalProjectAnimalShop/wwwroot",
       "Source": "FinalProjectAnimalShop",
-      "ContentRoot": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
       "BasePath": "_content/FinalProjectAnimalShop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\css\\site.css",
+      "Identity": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/css/site.css",
       "SourceId": "FinalProjectAnimalShop",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
       "BasePath": "_content/FinalProjectAnimalShop",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\img\\4430779_638529351084700874.webp",
+      "Identity": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/4430779_638529351084700874.webp",
       "SourceId": "FinalProjectAnimalShop",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
       "BasePath": "_content/FinalProjectAnimalShop",
       "RelativePath": "img/4430779_638529351084700874.webp",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\4430779_638529351084700874.webp"
+      "OriginalItemSpec": "wwwroot/img/4430779_638529351084700874.webp"
     },
     {
-      "Identity": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\img\\4430779_638529359698371845.webp",
+      "Identity": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/4430779_638529359698371845.webp",
       "SourceId": "FinalProjectAnimalShop",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
       "BasePath": "_content/FinalProjectAnimalShop",
       "RelativePath": "img/4430779_638529359698371845.webp",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\4430779_638529359698371845.webp"
+      "OriginalItemSpec": "wwwroot/img/4430779_638529359698371845.webp"
     },
     {
-      "Identity": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\img\\4430779_638529359915782128.webp",
+      "Identity": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/4430779_638529359915782128.webp",
       "SourceId": "FinalProjectAnimalShop",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
       "BasePath": "_content/FinalProjectAnimalShop",
       "RelativePath": "img/4430779_638529359915782128.webp",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\4430779_638529359915782128.webp"
+      "OriginalItemSpec": "wwwroot/img/4430779_638529359915782128.webp"
     },
     {
-      "Identity": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\img\\autotile_tileset_templey_638529350382938980.png",
+      "Identity": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/autotile_tileset_templey_638529350382938980.png",
       "SourceId": "FinalProjectAnimalShop",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
       "BasePath": "_content/FinalProjectAnimalShop",
       "RelativePath": "img/autotile_tileset_templey_638529350382938980.png",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\autotile_tileset_templey_638529350382938980.png"
+      "OriginalItemSpec": "wwwroot/img/autotile_tileset_templey_638529350382938980.png"
     },
     {
-      "Identity": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\img\\autotile_tileset_templey_638529368642885994.png",
+      "Identity": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/autotile_tileset_templey_638529368642885994.png",
       "SourceId": "FinalProjectAnimalShop",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
       "BasePath": "_content/FinalProjectAnimalShop",
       "RelativePath": "img/autotile_tileset_templey_638529368642885994.png",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\autotile_tileset_templey_638529368642885994.png"
+      "OriginalItemSpec": "wwwroot/img/autotile_tileset_templey_638529368642885994.png"
     },
     {
-      "Identity": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\img\\autotile_tileset_templey_638529370000890294.png",
+      "Identity": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/autotile_tileset_templey_638529370000890294.png",
       "SourceId": "FinalProjectAnimalShop",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
       "BasePath": "_content/FinalProjectAnimalShop",
       "RelativePath": "img/autotile_tileset_templey_638529370000890294.png",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\autotile_tileset_templey_638529370000890294.png"
+      "OriginalItemSpec": "wwwroot/img/autotile_tileset_templey_638529370000890294.png"
     },
     {
-      "Identity": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\img\\autotile_tileset_templey_638529415554122063.png",
+      "Identity": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/autotile_tileset_templey_638529415554122063.png",
       "SourceId": "FinalProjectAnimalShop",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
       "BasePath": "_content/FinalProjectAnimalShop",
       "RelativePath": "img/autotile_tileset_templey_638529415554122063.png",
       "AssetKind": "All",
@@ -166,13 +166,89 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\autotile_tileset_templey_638529415554122063.png"
+      "OriginalItemSpec": "wwwroot/img/autotile_tileset_templey_638529415554122063.png"
     },
     {
-      "Identity": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\img\\NoImage.jpg",
+      "Identity": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/blackMamba_638530095659110410.jpeg",
       "SourceId": "FinalProjectAnimalShop",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs code projects\\FinalProjectAnimalShop\\wwwroot\\",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
+      "BasePath": "_content/FinalProjectAnimalShop",
+      "RelativePath": "img/blackMamba_638530095659110410.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/blackMamba_638530095659110410.jpeg"
+    },
+    {
+      "Identity": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/blackMamba_638530097159062050.jpeg",
+      "SourceId": "FinalProjectAnimalShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
+      "BasePath": "_content/FinalProjectAnimalShop",
+      "RelativePath": "img/blackMamba_638530097159062050.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/blackMamba_638530097159062050.jpeg"
+    },
+    {
+      "Identity": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/blackMamba_638530118659962530.jpeg",
+      "SourceId": "FinalProjectAnimalShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
+      "BasePath": "_content/FinalProjectAnimalShop",
+      "RelativePath": "img/blackMamba_638530118659962530.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/blackMamba_638530118659962530.jpeg"
+    },
+    {
+      "Identity": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/blackMamba_638530118713190990.jpeg",
+      "SourceId": "FinalProjectAnimalShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
+      "BasePath": "_content/FinalProjectAnimalShop",
+      "RelativePath": "img/blackMamba_638530118713190990.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/blackMamba_638530118713190990.jpeg"
+    },
+    {
+      "Identity": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/NoImage.jpg",
+      "SourceId": "FinalProjectAnimalShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/",
       "BasePath": "_content/FinalProjectAnimalShop",
       "RelativePath": "img/NoImage.jpg",
       "AssetKind": "All",
@@ -185,7 +261,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\NoImage.jpg"
+      "OriginalItemSpec": "wwwroot/img/NoImage.jpg"
     }
   ]
 }

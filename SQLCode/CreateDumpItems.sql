@@ -1,3 +1,4 @@
+-- Active: 1717398084928@@127.0.0.1@3306@PetShopDB
 -- Insert Categories
 ALTER TABLE Animals AUTO_INCREMENT = 1;
 

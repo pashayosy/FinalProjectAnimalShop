@@ -8,7 +8,7 @@
 
 <h2>Create Animal</h2>
 
-<form asp-action="Create" method="post" class="needs-validation" novalidate>
+<form asp-action="Create" enctype="multipart/form-data" class="needs-validation">
     <div class="form-group">
         <label asp-for="Name" class="control-label"></label>
         <input asp-for="Name" class="form-control" />
@@ -21,7 +21,7 @@
     </div>
     <div class="form-group">
         <label for="Photo">Photo Upload</label>
-        <input type="file" class="form-control" id="Photo" name="Photo" placeholder="/img/NoImage.jpg" />
+        <input type="file" class="form-control" id="Photo" name="photo" />
     </div>
     <div class="form-group">
         <label asp-for="Description" class="control-label"></label>
