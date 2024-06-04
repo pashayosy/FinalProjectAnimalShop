@@ -51,6 +51,7 @@ public class AdminController : Controller
 
             _context.Animals.Add(animal);
             _context.SaveChanges();
+            TempData["SuccessMessage"] = "Animal added successfully.";
             return RedirectToAction(nameof(Index));
         }
         ViewData["Categories"] = new SelectList(_context.Categories, "CategoryId", "Name", animal.CategoryId);
@@ -92,6 +93,7 @@ public class AdminController : Controller
             try
             {
                 await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "Animal updated successfully.";
                 return RedirectToAction(nameof(Index));
             }
             catch (DbUpdateException)
@@ -130,6 +132,7 @@ public class AdminController : Controller
 
         _context.Animals.Remove(animal);
         await _context.SaveChangesAsync();
+        TempData["SuccessMessage"] = "Animal deleted successfully.";
         return RedirectToAction(nameof(Index));
     }
 

@@ -49,7 +49,7 @@ public class CatalogController : Controller
 
         if (!string.IsNullOrEmpty(searchTerm))
         {
-            animals = animals.Where(a => a.Name.Contains(searchTerm));
+            animals = animals.Where(a => a.Name!.Contains(searchTerm));
         }
 
         if (categoryId.HasValue && categoryId > 0)

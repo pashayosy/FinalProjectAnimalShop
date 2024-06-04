@@ -441,6 +441,16 @@ E:/vs code projects/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.AspNetCore
 E:/vs code projects/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.AspNetCore.Razor.Language.dll
 E:/vs code projects/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.CodeAnalysis.Razor.dll
 E:/vs code projects/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.MvcApplicationPartsAssemblyInfo.cs
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.csproj.AssemblyReference.cache
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.AssemblyInfoInputs.cache
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.AssemblyInfo.cs
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.csproj.CoreCompileInputs.cache
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.MvcApplicationPartsAssemblyInfo.cs
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.MvcApplicationPartsAssemblyInfo.cache
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.RazorAssemblyInfo.cache
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.RazorAssemblyInfo.cs
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.sourcelink.json
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/appsettings.Development.json
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/appsettings.json
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/FinalProjectAnimalShop.staticwebassets.runtime.json
@@ -752,6 +762,7 @@ E:/vs code projects/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalSh
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/refs/WindowsBase.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Azure.Core.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Azure.Identity.dll
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Castle.Core.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Humanizer.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/System.Web.Mvc.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/System.Web.Razor.dll
@@ -772,6 +783,7 @@ E:/vs code projects/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalSh
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Proxies.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
@@ -869,16 +881,6 @@ E:/vs code projects/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalSh
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
-/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.csproj.AssemblyReference.cache
-/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.GeneratedMSBuildEditorConfig.editorconfig
-/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.AssemblyInfoInputs.cache
-/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.AssemblyInfo.cs
-/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.csproj.CoreCompileInputs.cache
-/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.MvcApplicationPartsAssemblyInfo.cs
-/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.MvcApplicationPartsAssemblyInfo.cache
-/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.RazorAssemblyInfo.cache
-/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.RazorAssemblyInfo.cs
-/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.sourcelink.json
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/staticwebassets.build.json
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/staticwebassets.development.json
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/staticwebassets/msbuild.FinalProjectAnimalShop.Microsoft.AspNetCore.StaticWebAssets.props
@@ -893,5 +895,3 @@ E:/vs code projects/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalSh
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.pdb
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/FinalProjectAnimalShop.genruntimeconfig.cache
 /Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/obj/Debug/net8.0/ref/FinalProjectAnimalShop.dll
-/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Castle.Core.dll
-/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Proxies.dll
