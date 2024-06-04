@@ -12,7 +12,9 @@ public class Category
     [Required(ErrorMessage = "The Name field is required.")]
     [StringLength(100, ErrorMessage = "The Name must be at most 100 characters long.")]
     public string? Name { get; set; }
-    public ICollection<Animal>? Animals { get; set; }
+
+    // Navigation Property
+    public virtual ICollection<Animal>? Animals { get; set; }
 
     public Category(string? name, ICollection<Animal>? animals)
     {

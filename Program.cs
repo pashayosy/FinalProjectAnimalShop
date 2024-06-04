@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 //Connect to sql server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), new MySqlServerVersion(new Version(8, 0, 21))));
+    options.UseLazyLoadingProxies().UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), new MySqlServerVersion(new Version(8, 0, 21))));
 
 
 var app = builder.Build();

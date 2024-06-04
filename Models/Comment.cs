@@ -18,7 +18,7 @@ public class Comment
     public int AnimalId { get; set; }
 
     [ForeignKey("AnimalId")]
-    public Animal? Animal { get; set; }
+    public virtual Animal? Animal { get; set; }
 
 
     public Comment(string? text, int animalId, Animal? animal)

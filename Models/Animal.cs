@@ -23,12 +23,15 @@ public class Animal
     [StringLength(500, ErrorMessage = "The Description must be at most 500 characters long.")]
     public string? Description { get; set; }
 
+    // Foreign Key
     [Required(ErrorMessage = "The Category field is required.")]
     public int CategoryId { get; set; }
 
+    // Navigation Properties
     [ForeignKey("CategoryId")]
-    public Category? Category { get; set; }
-    public ICollection<Comment>? Comments { get; set; }
+    public virtual Category? Category { get; set; }
+    public virtual ICollection<Comment>? Comments { get; set; }
+
     public Animal(string? name, int age, string? pictureUrl, string? description, int categoryId, Category? category, ICollection<Comment>? comments)
     {
         Name = name;
