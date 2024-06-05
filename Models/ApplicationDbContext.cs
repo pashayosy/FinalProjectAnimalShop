@@ -1,8 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace FinalProjectAnimalShop.Models;
 
-public class ApplicationDbContext : DbContext
+public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
@@ -12,6 +14,9 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        // Fix the migration problem for init
+        base.OnModelCreating(modelBuilder);
+
         modelBuilder.Entity<Animal>()
             .HasOne(a => a.Category)
             .WithMany(c => c.Animals)
@@ -107,6 +112,43 @@ public class ApplicationDbContext : DbContext
         if (!Categories.Any() && !Animals.Any() && !Comments.Any())
         {
             Database.ExecuteSqlRaw(sqlCommands);
+        }
+    }
+
+    public static async Task UserInitialize(IServiceProvider serviceProvider)
+    {
+        var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+        var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+
+        string[] roleNames = { "Admin", "Moderator", "Postmen", "Regular" };
+        IdentityResult roleResult;
+
+        foreach (var roleName in roleNames)
+        {
+            var roleExist = await roleManager.RoleExistsAsync(roleName);
+            if (!roleExist)
+            {
+                roleResult = await roleManager.CreateAsync(new IdentityRole(roleName));
+            }
+        }
+
+        var admin = new ApplicationUser
+        {
+            UserName = "admin@admin.com",
+            Email = "admin@admin.com"
+        };
+
+        string adminPassword = "Admin@123";
+
+        var user = await userManager.FindByEmailAsync("admin@admin.com");
+
+        if (user == null)
+        {
+            var createPowerUser = await userManager.CreateAsync(admin, adminPassword);
+            if (createPowerUser.Succeeded)
+            {
+                await userManager.AddToRoleAsync(admin, "Admin");
+            }
         }
     }
 }

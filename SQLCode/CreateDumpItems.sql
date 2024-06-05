@@ -1,5 +1,7 @@
--- Active: 1717398084928@@127.0.0.1@3306@PetShopDB
+-- Active: 1717073665072@@127.0.0.1@3306@petshopdb
 -- Insert Categories
+DROP DATABASE petshopdb;
+
 ALTER TABLE Animals AUTO_INCREMENT = 1;
 
 ALTER TABLE Categories AUTO_INCREMENT = 1;

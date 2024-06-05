@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FinalProjectAnimalShop;
 
+[Authorize(Roles = "Admin")]
 public class AdminController : Controller
 {
     private readonly ApplicationDbContext _context;

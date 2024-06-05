@@ -1,11 +1,18 @@
 using FinalProjectAnimalShop.Models;
 using FinalProjectAnimalShop.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<FileService>();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+
+// Add Service Provider to the application
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
 //Connect to sql server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -19,9 +26,15 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     var context = services.GetRequiredService<ApplicationDbContext>();
+
     context.Database.EnsureCreated();
     context.EnsureDatabaseCreatedAndSeeded();
+    ApplicationDbContext.UserInitialize(services).Wait();
 }
+
+// Authentication nad Authorization
+app.UseAuthentication();
+app.UseAuthorization();
 
 // Configure the HTTP request pipeline.
 app.UseStaticFiles();
