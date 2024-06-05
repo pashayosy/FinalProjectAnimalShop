@@ -24,9 +24,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="@Url.Action("Index", "Catalog")">Catalog</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="@Url.Action("Index", "Admin")">Admin</a>
-                </li>
+                @if (User.IsInRole("Admin"))
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Admin")">Admin</a>
+                    </li>
+                }
             </ul>
             <form class="form-inline ml-auto" asp-controller="Catalog" asp-action="Index" method="get">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" name="searchTerm"

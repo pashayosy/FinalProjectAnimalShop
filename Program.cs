@@ -10,7 +10,7 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 
 // Add Service Provider to the application
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
@@ -32,13 +32,16 @@ using (var scope = app.Services.CreateScope())
     ApplicationDbContext.UserInitialize(services).Wait();
 }
 
-// Authentication nad Authorization
-app.UseAuthentication();
-app.UseAuthorization();
+
 
 // Configure the HTTP request pipeline.
 app.UseStaticFiles();
 app.UseRouting();
+
+// Authentication and Authorization
+app.UseAuthentication();
+app.UseAuthorization();
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
