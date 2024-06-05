@@ -14,6 +14,15 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 var app = builder.Build();
 
+// Seed the database
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<ApplicationDbContext>();
+    context.Database.EnsureCreated();
+    context.EnsureDatabaseCreatedAndSeeded();
+}
+
 // Configure the HTTP request pipeline.
 app.UseStaticFiles();
 app.UseRouting();
