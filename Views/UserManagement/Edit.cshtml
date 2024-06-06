@@ -1,0 +1,51 @@
+@using FinalProjectAnimalShop.Models;
+@using Microsoft.AspNetCore.Identity
+@model EditUser;
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2 class="mt-4 mb-4">Edit User</h2>
+
+<form asp-action="Edit" class="needs-validation" novalidate>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="FirstName" class="control-label"></label>
+            <input asp-for="FirstName" class="form-control" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="LastName" class="control-label"></label>
+            <input asp-for="LastName" class="form-control" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Roles</label>
+        <div id="rolesList" class="form-control" style="height: auto;">
+            @foreach (var role in Model.AllRoles)
+            {
+                // Skip the "Admin" role if the current user is not an admin
+                if (role == "Admin" && !User.IsInRole("Admin"))
+                {
+                    continue;
+                }
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="role_@role" name="SelectedRoles" value="@role"
+                    @(Model.UserRoles.Contains(role) ? "checked" : "") />
+                    <label class="form-check-label" for="role_@role">@role</label>
+                </div>
+            }
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

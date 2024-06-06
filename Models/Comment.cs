@@ -20,7 +20,6 @@ public class Comment
     [ForeignKey("AnimalId")]
     public virtual Animal? Animal { get; set; }
 
-
     public Comment(string? text, int animalId, Animal? animal)
     {
         Text = text;

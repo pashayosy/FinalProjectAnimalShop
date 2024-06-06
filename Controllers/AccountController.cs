@@ -92,14 +92,16 @@ public class AccountController : Controller
             bool userExists = await _userManager.FindByEmailAsync(model.Email) != null;
             if (!userExists)
             {
-                var result = await _userManager.CreateAsync(user, model.Password);
-                if (result.Succeeded)
+                var userCreateresult = await _userManager.CreateAsync(user, model.Password);
+                var roleAddresult = await _userManager.AddToRolesAsync(user, ["Regular"]);
+
+                if (userCreateresult.Succeeded && roleAddresult.Succeeded)
                 {
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return RedirectToAction("Index", "Home");
                 }
-
-                foreach (var error in result.Errors)
+                IEnumerable<IdentityError> errors = userCreateresult.Errors.Concat(roleAddresult.Errors);
+                foreach (var error in errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
                 }

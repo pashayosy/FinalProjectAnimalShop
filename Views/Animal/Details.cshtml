@@ -21,11 +21,8 @@
         </ul>
     </div>
 </div>
-@* <form asp-action="AddComment" method="post" class="mt-3">
-<div class="form-group">
-<label for="text">Add a Comment</label>
-<textarea class="form-control" id="text" name="text" rows="3" required></textarea>
-</div>
-<button type="submit" class="btn btn-primary">Submit</button>
-</form> *@
-@await Html.PartialAsync("_AddComment", new Comment { })
+
+@if (User.Identity.IsAuthenticated)
+{
+    @await Html.PartialAsync("_AddComment", new Comment { })
+}
