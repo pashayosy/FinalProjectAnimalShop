@@ -41,26 +41,28 @@ Welcome to the Pet Shop Application repository! This project is a web applicatio
 ### Steps
 
 1. **Clone the Repository**:
-    \`\`\`bash
-    git clone https://github.com/yourusername/petshop-application.git
+    ```
+    bash
+    git clone https://github.com/pashayosy/FinalProjectAnimalShop.git
     cd petshop-application
-    \`\`\`
+    ```
 
-2. **Set Up the Database**:
+3. **Set Up the Database**:
     - Create a MySQL database and update the connection string in \`appsettings.json\`.
 
-3. **Run Migrations**:
-    \`\`\`bash
+4. **Run Migrations**:
+    ```
+    bash
     dotnet ef migrations add InitialCreate
     dotnet ef database update
-    \`\`\`
+    ```
 
-4. **Run the Application**:
-    \`\`\`bash
+5. **Run the Application**:
+    ```bash
     dotnet run
-    \`\`\`
+    ```
 
-5. **Seed the Database** (Optional):
+6. **Seed the Database** (Optional):
     - Use the provided SQL script to seed initial data into the database.
 
 ## Project Structure
@@ -116,10 +118,10 @@ Welcome to the Pet Shop Application repository! This project is a web applicatio
 We welcome contributions from the community! Please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch (\`git checkout -b feature-branch\`).
+2. Create a new branch (```git checkout -b feature-branch```).
 3. Make your changes.
-4. Commit your changes (\`git commit -m 'Add some feature'\`).
-5. Push to the branch (\`git push origin feature-branch\`).
+4. Commit your changes (```git commit -m 'Add some feature```).
+5. Push to the branch (```git push origin feature-branch```).
 6. Create a pull request.
 
 ## License
