@@ -1,0 +1,19 @@
+@using FinalProjectAnimalShop.Models;
+@model IEnumerable<Post>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Posts</h2>
+<div class="list-group">
+    @foreach (var post in Model)
+    {
+        <a asp-action="Details" asp-route-id="@post.PostId" class="list-group-item list-group-item-action">
+            <h5 class="mb-1">@post.Title</h5>
+            <p class="mb-1">@post.Content</p>
+            <small class="text-muted">Posted by @post.Author.FirstName on @post.CreatedAt.ToShortDateString()</small>
+        </a>
+    }
+</div>

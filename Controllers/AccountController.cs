@@ -53,7 +53,7 @@ public class AccountController : Controller
                 return View(model);
             }
 
-            var result = await _signInManager.PasswordSignInAsync(user.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+            var result = await _signInManager.PasswordSignInAsync(user.UserName, model.Password, model.RememberMe, lockoutOnFailure: false);
 
             if (result.Succeeded)
             {

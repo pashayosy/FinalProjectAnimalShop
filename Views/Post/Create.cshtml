@@ -1,0 +1,25 @@
+@using FinalProjectAnimalShop.Models;
+@model Post
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2>Create Post</h2>
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label asp-for="Title" class="control-label"></label>
+            <input asp-for="Title" class="form-control" placeholder="Enter the title of your post" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Content" class="control-label"></label>
+            <textarea asp-for="Content" class="form-control" rows="5"
+                placeholder="Enter the content of your post"></textarea>
+            <span asp-validation-for="Content" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+</div>

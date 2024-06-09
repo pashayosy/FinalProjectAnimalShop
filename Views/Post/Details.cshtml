@@ -1,0 +1,26 @@
+@using FinalProjectAnimalShop.Models;
+@model Post
+
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <h3>@Model.Title</h3>
+            <small class="text-muted">by @Model.Author.UserName</small>
+        </div>
+        <div class="card-body">
+            <p>@Model.Content</p>
+        </div>
+        <div class="card-footer text-muted">
+            @if (ViewBag.UserId == Model.AuthorId)
+            {
+                <a asp-action="Edit" asp-route-id="@Model.PostId" class="btn btn-primary btn-sm">Edit</a>
+                <a asp-action="Delete" asp-route-id="@Model.PostId" class="btn btn-danger btn-sm">Delete</a>
+            }
+        </div>
+    </div>
+</div>

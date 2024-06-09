@@ -11,6 +11,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     public DbSet<Animal> Animals { get; set; }
     public DbSet<Category> Categories { get; set; }
     public DbSet<Comment> Comments { get; set; }
+    public DbSet<Post> Posts { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -26,6 +27,11 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
             .HasOne(c => c.Animal)
             .WithMany(a => a.Comments)
             .HasForeignKey(c => c.AnimalId);
+
+        modelBuilder.Entity<Post>()
+            .HasOne(p => p.Author)
+            .WithMany(u => u.Posts)
+            .HasForeignKey(p => p.AuthorId);
     }
 
     // Create the data for testing purposes

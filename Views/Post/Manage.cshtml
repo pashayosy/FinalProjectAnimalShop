@@ -1,0 +1,39 @@
+@using FinalProjectAnimalShop.Models;
+@model IEnumerable<Post>
+
+@{
+    ViewData["Title"] = "Manage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Manage Posts</h2>
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Author</th>
+            <th scope="col">Created At</th>
+            <th scope="col">Approved</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var post in Model)
+        {
+            <tr>
+                <td>@post.Title</td>
+                <td>@post.Author.FirstName</td>
+                <td>@post.CreatedAt.ToShortDateString()</td>
+                <td>@post.IsApproved</td>
+                <td>
+                    @if (!post.IsApproved)
+                    {
+                        <a asp-action="Approve" asp-route-id="@post.PostId" class="btn btn-success btn-sm">Approve</a>
+                    }
+                    <a asp-action="Edit" asp-route-id="@post.PostId" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@post.PostId" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

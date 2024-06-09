@@ -66,6 +66,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/Views/Post/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/Views/Post/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/Views/Post/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/Views/Post/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/Views/Post/Manage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9NYW5hZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/Views/Shared/_AddComment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BZGRDb21tZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
