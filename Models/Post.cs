@@ -10,9 +10,11 @@ public class Post
     public int PostId { get; set; }
 
     [Required]
+    [StringLength(100, ErrorMessage = "The Title must be at most 100 characters long.")]
     public string? Title { get; set; }
 
     [Required]
+    [StringLength(500, ErrorMessage = "The Content must be at most 500 characters long.")]
     public string? Content { get; set; }
 
     public DateTime CreatedAt { get; set; }

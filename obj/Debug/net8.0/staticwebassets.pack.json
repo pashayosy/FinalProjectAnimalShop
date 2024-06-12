@@ -1,79 +1,75 @@
 {
   "Files": [
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/4430779_638529351084700874.webp",
-      "PackagePath": "staticwebassets/img/4430779_638529351084700874.webp"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\img\\4430779_638529351084700874.webp",
+      "PackagePath": "staticwebassets\\img\\4430779_638529351084700874.webp"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/4430779_638529359698371845.webp",
-      "PackagePath": "staticwebassets/img/4430779_638529359698371845.webp"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\img\\4430779_638529359698371845.webp",
+      "PackagePath": "staticwebassets\\img\\4430779_638529359698371845.webp"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/4430779_638529359915782128.webp",
-      "PackagePath": "staticwebassets/img/4430779_638529359915782128.webp"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\img\\4430779_638529359915782128.webp",
+      "PackagePath": "staticwebassets\\img\\4430779_638529359915782128.webp"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/4430779_638531824648206669.webp",
-      "PackagePath": "staticwebassets/img/4430779_638531824648206669.webp"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\img\\NoImage.jpg",
+      "PackagePath": "staticwebassets\\img\\NoImage.jpg"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/NoImage.jpg",
-      "PackagePath": "staticwebassets/img/NoImage.jpg"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\img\\autotile_tileset_templey_638529350382938980.png",
+      "PackagePath": "staticwebassets\\img\\autotile_tileset_templey_638529350382938980.png"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/autotile_tileset_templey_638529350382938980.png",
-      "PackagePath": "staticwebassets/img/autotile_tileset_templey_638529350382938980.png"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\img\\autotile_tileset_templey_638529368642885994.png",
+      "PackagePath": "staticwebassets\\img\\autotile_tileset_templey_638529368642885994.png"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/autotile_tileset_templey_638529368642885994.png",
-      "PackagePath": "staticwebassets/img/autotile_tileset_templey_638529368642885994.png"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\img\\autotile_tileset_templey_638529370000890294.png",
+      "PackagePath": "staticwebassets\\img\\autotile_tileset_templey_638529370000890294.png"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/autotile_tileset_templey_638529370000890294.png",
-      "PackagePath": "staticwebassets/img/autotile_tileset_templey_638529370000890294.png"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\img\\autotile_tileset_templey_638529415554122063.png",
+      "PackagePath": "staticwebassets\\img\\autotile_tileset_templey_638529415554122063.png"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/autotile_tileset_templey_638529415554122063.png",
-      "PackagePath": "staticwebassets/img/autotile_tileset_templey_638529415554122063.png"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\img\\autotile_tileset_templey_638531824328290220.png",
+      "PackagePath": "staticwebassets\\img\\autotile_tileset_templey_638531824328290220.png"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/autotile_tileset_templey_638531824328290220.png",
-      "PackagePath": "staticwebassets/img/autotile_tileset_templey_638531824328290220.png"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\img\\blackMamba_638530095659110410.jpeg",
+      "PackagePath": "staticwebassets\\img\\blackMamba_638530095659110410.jpeg"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/blackMamba_638530095659110410.jpeg",
-      "PackagePath": "staticwebassets/img/blackMamba_638530095659110410.jpeg"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\img\\blackMamba_638530097159062050.jpeg",
+      "PackagePath": "staticwebassets\\img\\blackMamba_638530097159062050.jpeg"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/blackMamba_638530097159062050.jpeg",
-      "PackagePath": "staticwebassets/img/blackMamba_638530097159062050.jpeg"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\img\\blackMamba_638530118659962530.jpeg",
+      "PackagePath": "staticwebassets\\img\\blackMamba_638530118659962530.jpeg"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/blackMamba_638530118659962530.jpeg",
-      "PackagePath": "staticwebassets/img/blackMamba_638530118659962530.jpeg"
+      "Id": "E:\\code projects\\aspnet\\FinalProjectAnimalShop\\wwwroot\\img\\blackMamba_638530118713190990.jpeg",
+      "PackagePath": "staticwebassets\\img\\blackMamba_638530118713190990.jpeg"
     },
     {
-      "Id": "/Users/yosypasha/Desktop/visual studio code/FinalProjectAnimalShop/wwwroot/img/blackMamba_638530118713190990.jpeg",
-      "PackagePath": "staticwebassets/img/blackMamba_638530118713190990.jpeg"
-    },
-    {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.FinalProjectAnimalShop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProjectAnimalShop.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.FinalProjectAnimalShop.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinalProjectAnimalShop.props",
       "PackagePath": "build\\FinalProjectAnimalShop.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FinalProjectAnimalShop.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalProjectAnimalShop.props",
       "PackagePath": "buildMultiTargeting\\FinalProjectAnimalShop.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FinalProjectAnimalShop.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinalProjectAnimalShop.props",
       "PackagePath": "buildTransitive\\FinalProjectAnimalShop.props"
     }
   ],

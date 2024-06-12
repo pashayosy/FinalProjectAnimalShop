@@ -31,3 +31,11 @@
   height: auto;
   object-fit: contain;
 }
+
+.truncate {
+  display: inline-block;
+  width: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

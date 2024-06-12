@@ -82,7 +82,7 @@ public class AccountController : Controller
         {
             var user = new ApplicationUser
             {
-                UserName = model.FirstName,
+                UserName = model.FirstName + Guid.NewGuid().ToString(),
                 Email = model.Email,
                 FirstName = model.FirstName,
                 LastName = model.LastName,
@@ -97,16 +97,22 @@ public class AccountController : Controller
 
                 if (userCreateresult.Succeeded && roleAddresult.Succeeded)
                 {
+                    //Add option for fast access first name
+                    await _userManager.AddClaimAsync(user, new Claim(ClaimTypes.GivenName, user.FirstName));
+
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return RedirectToAction("Index", "Home");
                 }
-                IEnumerable<IdentityError> errors = userCreateresult.Errors.Concat(roleAddresult.Errors);
-                foreach (var error in errors)
+
+                foreach (var error in userCreateresult.Errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
             }
-            ModelState.AddModelError(string.Empty, "Please use other email!");
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Please use other email!");
+            }
         }
         return View(model);
     }

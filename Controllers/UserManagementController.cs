@@ -37,6 +37,7 @@ public class UserManagementController : Controller
         return View("Index", users);
     }
 
+    [Authorize(Roles = "Admin, Moderator")]
     public async Task<IActionResult> Edit(string id)
     {
         var user = await _userManager.FindByIdAsync(id);
@@ -59,6 +60,7 @@ public class UserManagementController : Controller
     }
 
     [HttpPost]
+    [Authorize(Roles = "Admin, Moderator")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(EditUser model)
     {
@@ -96,5 +98,50 @@ public class UserManagementController : Controller
         await _userManager.UpdateAsync(user);
 
         return RedirectToAction(nameof(Index));
+    }
+
+    [HttpGet]
+    [Authorize(Roles = "Admin")]
+    public async Task<IActionResult> Delete(string Id)
+    {
+        if (string.IsNullOrEmpty(Id))
+        {
+            return NotFound();
+        }
+
+        var user = await _userManager.FindByIdAsync(Id);
+        if (user == null)
+        {
+            return NotFound();
+        }
+        var UserRoles = await _userManager.GetRolesAsync(user);
+        ViewBag.Roles = UserRoles.ToList();
+        return View(user);
+    }
+
+    [HttpPost]
+    [Authorize(Roles = "Admin")]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> DeleteConfirmed(string userId)
+    {
+        if (string.IsNullOrEmpty(userId))
+        {
+            return NotFound();
+        }
+
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        var result = await _userManager.DeleteAsync(user);
+        if (!result.Succeeded)
+        {
+            ModelState.AddModelError(string.Empty, "Failed to delete the user.");
+            return View(user);
+        }
+        TempData["SuccessMessage"] = "User Deleted successfully.";
+        return RedirectToAction("Index");
     }
 }

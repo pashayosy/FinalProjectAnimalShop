@@ -21,7 +21,7 @@
         {
             <tr>
                 <td>@animal.Name</td>
-                <td>@animal.Category.Name</td>
+                <td>@animal.Category!.Name</td>
                 <td>
                     <a href="@Url.Action("Edit", new { id = animal.AnimalId })" class="btn btn-warning btn-sm">Edit</a>
                     <a href="@Url.Action("Delete", new { id = animal.AnimalId })" class="btn btn-danger btn-sm">Delete</a>

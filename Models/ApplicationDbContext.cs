@@ -113,9 +113,10 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
             ('So colorful.', 15),
             ('Very lively.', 15),
             ('Love watching them.', 15);
+    );
         ";
 
-        if (!Categories.Any() && !Animals.Any() && !Comments.Any())
+        if (!Categories.Any() && !Animals.Any() && !Comments.Any() && !Posts.Any())
         {
             Database.ExecuteSqlRaw(sqlCommands);
         }
@@ -141,6 +142,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
         var admin = new ApplicationUser
         {
             UserName = "admin@admin.com",
+            FirstName = "Administrator",
             Email = "admin@admin.com"
         };
 
