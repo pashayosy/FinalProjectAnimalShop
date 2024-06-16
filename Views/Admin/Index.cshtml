@@ -20,7 +20,7 @@
         @foreach (var animal in Model)
         {
             <tr>
-                <td>@animal.Name</td>
+                <td class="truncate">@animal.Name</td>
                 <td>@animal.Category!.Name</td>
                 <td>
                     <a href="@Url.Action("Edit", new { id = animal.AnimalId })" class="btn btn-warning btn-sm">Edit</a>

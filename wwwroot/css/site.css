@@ -1,3 +1,9 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 .footer {
   background-color: #f8f9fa;
   padding: 1rem 0;
@@ -34,8 +40,21 @@
 
 .truncate {
   display: inline-block;
-  width: 20px;
+  width: 300px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.list-group-item {
+  word-wrap: break-word; /* Breaks long words */
+  word-break: break-word; /* Ensures words break within the container */
+  overflow-wrap: break-word; /* Adds support for breaking words */
+  white-space: normal; /* Ensures text wraps */
 }
