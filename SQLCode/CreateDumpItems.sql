@@ -1,4 +1,4 @@
--- Active: 1717398084928@@127.0.0.1@3306@PetShopDB
+-- Active: 1717579550458@@127.0.0.1@3306@petshopdb
 -- Insert Categories
 DROP DATABASE petshopdb;
 

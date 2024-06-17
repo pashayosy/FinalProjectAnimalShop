@@ -112,9 +112,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
             ('Interesting shell.', 14),
             ('So colorful.', 15),
             ('Very lively.', 15),
-            ('Love watching them.', 15);
-    );
-        ";
+            ('Love watching them.', 15);";
 
         if (!Categories.Any() && !Animals.Any() && !Comments.Any() && !Posts.Any())
         {
